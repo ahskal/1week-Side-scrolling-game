@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Mon.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageUi.h">
+      <Filter>Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Monster1.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Mon.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageUi.cpp">
+      <Filter>Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Monster1.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster2.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{901fedf8-7195-47ad-8efc-eb58fb9cddbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tile">
+      <UniqueIdentifier>{062e7745-5fe5-4fce-b853-1d71b3b5d910}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
